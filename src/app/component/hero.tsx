@@ -1,7 +1,7 @@
+'use client'
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
-// import Typewriter from 'typewriter-effect';
 
 const Hero = () => {
   return (
@@ -12,13 +12,7 @@ const Hero = () => {
         I am concerning with
         <br className="hidden lg:inline-block" />
         Web Development and Cyber Security
-        {/* <Typewriter
-  options={{
-    strings: ['Hello', 'World'],
-    autoStart: true,
-    loop: true,
-  }}
-/> */}
+        
       </h1><br />
       <p className="mb-8 leading-relaxed ">
       I offer expert services in web development and cyber security. As a web developer, I create responsive, high-performance websites and applications tailored to your needs. In cybersecurity, I protect your business from cyber threats with proactive security measures, including vulnerability assessments and threat detection.
